@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="burger.css">
+</head>
+
+<body style="background-image: url(ap1.jpg) ;">
+
+
+    <!---------    nav bar    start                ------------ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="logo.jpeg" class="img-fluid" alt="Responsive image" style="height: 60px;border-radius: 50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <h5><a class="nav-link active" aria-current="page" href="project.html">Home</a></h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5><a class="nav-link" href="about.html">About US</a></h5>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <h5> <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="burger.html">BURGER</a>
+                                <a class="dropdown-item" href="freakshakes.html">FREAK SHAKES</a>
+                                <a class="dropdown-item" href="pizza.html">PIZZA</a>
+                                <a class="dropdown-item" href="hotdog.html">HOT DOG</a>
+                                <a class="dropdown-item" href="burritos.html">BURRITOS</a>
+                                <a class="dropdown-item" href="sandwich.html">SANDWICH</a>
+                                <a class="dropdown-item" href="fries.html">FRIES</a>
+                                <a class="dropdown-item" href="garlicbread.html">GARLIC BREAD</a>
+                                <a class="dropdown-item" href="pasta.html">PASTA</a>
+                                <a class="dropdown-item" href="shawarama.html">SHAWARMA</a>
+                            </ul>
+                        </h5>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <h5> <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Order now
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="burgerorder.html">BURGER</a>
+                                <a class="dropdown-item" href="freakshakesorder.html">FREAK SHAKES</a>
+                                <a class="dropdown-item" href="pizzaorder.html">PIZZA</a>
+                                <a class="dropdown-item" href="HotDogorder.html">HOT DOG</a>
+                                <a class="dropdown-item" href="burritosorder.html">BURRITOS</a>
+                                <a class="dropdown-item" href="sandwichorder.html">SANDWICH</a>
+                                <a class="dropdown-item" href="friesorder.html">FRIES</a>
+                                <a class="dropdown-item" href="garlicbreadorder.html">GARLIC BREAD</a>
+                                <a class="dropdown-item" href="Pastaorder.html">PASTA</a>
+                                <a class="dropdown-item" href="shawarmaorder.html">SHAWARMA</a>
+                            </ul>
+                        </h5>
+                    </li>
+
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius:100px ;">
+                    <button type="button" class="btn btn-outline-dark" style="border-radius: 100px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    login
+                  </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------  nav bar end           ------------------>
+
+    <!--------------------------   img start ---------------------------------------->
+
+    <br>
+    <!----------------------------------- card   burger order start         ---------------------------------------------->
+
+    <div class="card d-flex justify-content-center" style="width: 380px; margin:auto ;">
+        <img src="burger.jpg" class="card-img-top" alt="..." style="width: 380px;">
+        <div class="card-body">
+            <h3 class="card-title">Burger order now</h3>
+            <p class="card-text">
+                <form>
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label" for="form7Example1">First name</label>
+                                <input type="text" id="form7Example1" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label" for="form7Example2">Last name</label>
+
+                                <input type="text" id="form7Example2" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form7Example5">Email</label>
+
+                        <input type="email" id="form7Example5" class="form-control" />
+                    </div>
+
+                    <!-- Number input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form7Example6">Phone</label>
+
+                        <input type="number" id="form7Example6" class="form-control" />
+                    </div>
+                    <!-- Text input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form7Example4">Address</label>
+
+                        <input type="text" id="form7Example4" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="disabledSelect" class="form-label">Select menu</label>
+                        <select id="disabledSelect" class="form-select">
+                         <option value="select">----select----</option>
+                          <option>Veg Boom</option>
+                          <option>Veg Cheese</option>
+                          <option>Crispy Paneer</option>
+                          <option>Super Angry Paneer</option>
+                          <option>Amritsari Paneer</option>
+                          <option>Italiyano Paneer</option>
+                          <option>Double Cheese Panner</option>
+                          <option>Overloaded Paneer</option>
+                          <option>Monster Veg Burger</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Add Cheese Slice <span>20 Rs</span></label>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Add PeriPeri <span>20 Rs</span></label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Add Angry Dip <span>20 Rs</span></label>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Add Cheese Dip <span>30 Rs</span></label>
+                    </div>
+                    <a href="paynow.html"></a><button type="submit" class="btn btn-primary">Pay Now</button>
+                </form>
+            </p>
+        </div>
+    </div>
+    <!----------------------------------- card   burger order   end      ---------------------------------------------->
+
+    <br>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" style="background-color: rgb(167, 241, 249);">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3> Food Resto Restaurantly</h3>
+                            <p>
+                                A108 Adam Street <br>Mumbai <br><br>
+                                <strong>Phone:</strong>+91 8577329702<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links"> <br>
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="project.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="menu.html">Menu</a></li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter"> <br>
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email" style="border-radius: 100px;"><input type="submit" value="Subscribe" style="border-radius: 100px;">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Button trigger modal -->
+    <!--  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+</body>
+
+</html>
